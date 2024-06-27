@@ -9,7 +9,11 @@ import { IExperiences } from '../../interfaces/IExperiences.interface';
   styleUrl: './experiences.component.scss',
 })
 export class ExperiencesComponent {
-  public arrayExperiences = signal<IExperiences[]>([
+  public arrayExperiences = signal<IExperiences[]>([ // <!-- Trocar pela minha trajetória até o momento -->
+    // <!-- Trocar pela minha trajetória até o momento -->
+    // <!-- Trocar pela minha trajetória até o momento -->
+    // <!-- Trocar pela minha trajetória até o momento -->
+    // <!-- Trocar pela minha trajetória até o momento -->
     {
       summary: {
         strong: 'Blog',
