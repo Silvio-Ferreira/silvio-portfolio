@@ -16,32 +16,32 @@ export class ExperiencesComponent {
     // <!-- Trocar pela minha trajetória até o momento -->
     {
       summary: {
-        strong: 'Blog',
-        //p: '',
+        strong: 'Primeiro contato com a programação - C++',
+        p: 'ETERJ | Março 2018',
       },
-      text: 'Um blog pessoal desenvolviedo com Angular, TypeScript, HTML e CSS.',
+      text: '<p>Durante o segundo ano do ensino médio técnico em eletrônica, tive meu primeiro contato com a programação utilizando a linguagem C++,</p> <p> o que se estendeu até o terceiro ano, onde utilizamos a linguagem para programar Arduinos.</p>',
     },
     {
       summary: {
-        strong: 'Busca CEP',
-       // p: '',
+        strong: 'Primeiro projeto com Python - Smart Mirror',
+        p: 'ETERJ | Outubro 2019 ',
       },
-      text:'O projeto "Consulta-CEP" é uma aplicação web que permite aos usuários pesquisar códigos postais brasileiros (CEP) e obter informações detalhadas do endereço. As tecnologias utilizadas foram HTML, CSS e JavaScript.',
+      text:'<p>Durante o meu último ano do ensino médio, meus amigos e eu fizemos um projeto para a feira de ciências da escola,</p> <p>um espelho que, além de poder ser usado para ver o seu reflexo, também poderia ser usado para visualizar informações diversas em tempo real,</p> <p>como o clima, hora, data e notícias do dia.</p>',
   
     },
     {
       summary: {
-        strong: 'Gerenciador de Contatos',
-       // p: '',
+        strong: 'Minha entrada na faculdade',
+        p: 'Unisuam | Fevereiro 2023',
       },
-      text: 'É um sistema web de gerenciamento de contatos desenvolvido em C# e ASP.NET Core MVC. Ele possibilita aos usuários adicionar, editar e excluir informações de contato, como nomes, números de telefone e endereços de email. As tecnologias utilizadas incluem C#, ASP.NET Core MVC, Entity Framework, HTML, CSS e JavaScript.',
+      text: '<p>Em 2022, decidi migrar da faculdade de Engenharia Elétrica e começar o curso de Análise e Desenvolvimento de Sistemas,</p> <p>curso no qual estou indo para o quarto semestre.</p>',
     },
     {
       summary: {
-        strong: 'Quiz',
-        //p: '',
+        strong: 'Atualmente',
+        p: 'Julho 2024',
       },
-      text: 'O projeto "Angular BuzzFeed Quiz" é uma aplicação de quiz inspirada nos quizzes do BuzzFeed. Ele permite que os usuários respondam a quizzes e obtenham resultados personalizados com base em suas respostas. A aplicação é construída com Angular, TypeScript, HTML e CSS.',
+      text: '<p>Continuo estudando as tecnologias que me interessam e aplicando o que aprendo em meus projetos.</p> <p>Atualmente, estou estudando sobre a Blockchain e em busca de um estágio na área de desenvolvimento.</p>',
     }
   ]);
 }

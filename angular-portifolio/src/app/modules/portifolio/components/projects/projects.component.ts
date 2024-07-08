@@ -14,8 +14,8 @@ public arrayProjects = signal<IProjects[]>([
     src: 'assets/icons/projetos/blog.mp4',
     //alt: "Projeto Angular-Blog",
     title: 'Angular-Blog',
-    width: '300px',
-    height: '300px',
+    width: '100%',
+    height: '100%',
     description: '',
     links: [
       {
@@ -28,8 +28,8 @@ public arrayProjects = signal<IProjects[]>([
     src: 'assets/icons/projetos/cep.mp4',
    // alt: "Projeto Angular-Blog",
     title: 'Angular-Blog',
-    width: '300px',
-    height: '300px',
+    width: '100%',
+    height: '100%',
     description: '',
     links: [
       {
@@ -42,8 +42,8 @@ public arrayProjects = signal<IProjects[]>([
     src: 'assets/icons/projetos/contatos.mp4',
     //alt: "Projeto Angular-Blog",
     title: 'Angular-Blog',
-    width: '300px',
-    height: '300px',
+    width: '100%',
+    height: '100%',
     description: '',
     links: [
       {
@@ -56,8 +56,8 @@ public arrayProjects = signal<IProjects[]>([
     src: 'assets/icons/projetos/quiz.mp4',
     //alt: "Projeto Angular-Blog",
     title: 'Angular-Blog',
-    width: '300px',
-    height: '300px',
+    width: '100%',
+    height: '100%',
     description: '',
     links: [
       {

@@ -1,13 +1,13 @@
 
 <div class="container">
-    <h2>Últimos Projetos</h2>
+    <h2>Minha trajetória</h2>
     @for (item of arrayExperiences(); track item;) {
 
     <details>
         <summary>
             <p>
                 <strong> {{item.summary.strong}}</strong>
-                <!-- {{item.summary.p}} -->
+                {{item.summary.p}}
             </p>
         </summary>
         <article [innerHTML]="item.text"></article>
