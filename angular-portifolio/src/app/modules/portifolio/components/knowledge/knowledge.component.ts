@@ -27,7 +27,7 @@ export class KnowledgeComponent {
       alt: 'Ícone de conhecimento de JavaScript.',
     },
     {
-      src: 'assets/icons/knowledge/microsoft-sql-server-1.svg',
+      src: 'assets/icons/knowledge/sql.png',
       alt: 'Ícone de conhecimento de SQL Server.',
     },
     {
