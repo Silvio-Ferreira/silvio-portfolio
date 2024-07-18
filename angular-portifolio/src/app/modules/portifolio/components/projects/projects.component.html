@@ -3,9 +3,10 @@
   <ul>
     @for (item of arrayProjects(); track item) {
       <li>
-        <button>
+        <button (click)="openDialog(item)"> 
           <video [attr.width]="item.width" 
                  [attr.height]="item.height" 
+                 
                  autoplay loop muted>
             <source [src]="item.src" type="video/mp4">
             Your browser does not support the video tag.
@@ -15,25 +16,3 @@
     }
   </ul>
 </div>
-
-
-<!-- <div class="container">
-  <h2>Projetos desenvolvidos</h2>
-
-  <ul>
-    @for (item of arrayProjects(); track item) {
-    <li>
-      <button>
-        <video [attr.width]="item.width" 
-         [attr.height]="item.height" 
-         autoplay loop muted>
-          <source [src] = "item.src" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </button>
-    </li>
-    }
-  </ul>
-</div> -->
-<!-- se não der certo, tente essas medias no vídeo width="300px"
-         height="" -->
