@@ -3,6 +3,23 @@
   <ul>
     @for (item of arrayProjects(); track item) {
       <li>
+        <button (click)="openDialog(item)">
+          <img [attr.width]="item.width"
+               [attr.height]="item.height"
+               [src]="item.src"
+               alt="Projeto">
+        </button>
+      </li>
+    }
+  </ul>
+</div>
+
+
+<!-- <div class="container">
+  <h2>Projetos desenvolvidos</h2>
+  <ul>
+    @for (item of arrayProjects(); track item) {
+      <li>
         <button (click)="openDialog(item)"> 
           <video [attr.width]="item.width" 
                  [attr.height]="item.height" 
@@ -15,4 +32,4 @@
       </li>
     }
   </ul>
-</div>
+</div> -->

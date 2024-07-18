@@ -16,7 +16,7 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
 public arrayProjects = signal<IProjects[]>([
   {
-    src: 'assets/icons/projetos/blog.mp4',
+    src: 'assets/icons/projetos/blog.gif',
     
     title: 'Angular Blog',
     width: '100%',
@@ -30,7 +30,7 @@ public arrayProjects = signal<IProjects[]>([
   ]
   },
   {
-    src: 'assets/icons/projetos/cep.mp4',
+    src: 'assets/icons/projetos/cep.gif',
   
     title: 'Consulta CEP',
     width: '100%',
@@ -44,7 +44,7 @@ public arrayProjects = signal<IProjects[]>([
   ]
   },
   {
-    src: 'assets/icons/projetos/contatos.mp4',
+    src: 'assets/icons/projetos/contatos.gif',
    
     title: 'Gerenciador de Contatos',
     width: '100%',
@@ -58,7 +58,7 @@ public arrayProjects = signal<IProjects[]>([
   ]
   },
   {
-    src: 'assets/icons/projetos/quiz.mp4',
+    src: 'assets/icons/projetos/quiz.gif',
    
     title: 'Angular BuzzFeed Quiz',
     width: '100%',
