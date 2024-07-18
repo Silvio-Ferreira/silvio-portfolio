@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-portifolio": {
+    "silvio-portifolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-portifolio",
+            "outputPath": "dist/silvio-portifolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-portifolio:build:production"
+              "buildTarget": "silvio-portifolio:build:production"
             },
             "development": {
-              "buildTarget": "angular-portifolio:build:development"
+              "buildTarget": "silvio-portifolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angular-portifolio:build"
+            "buildTarget": "silvio-portifolio:build"
           }
         },
         "test": {
